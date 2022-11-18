@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">noncoralmobile</string>
+    <string name="login_btn_text">Select device to connect</string>
+</resources>
