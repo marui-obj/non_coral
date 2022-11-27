@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val loginBtnClick: Button = findViewById(R.id.button2)
         val selectModeBtnClick: Button = findViewById(R.id.button4)
+        val connectBtnClick: Button = findViewById(R.id.button3)
 
         loginBtnClick.setOnClickListener{
             val loginPage = Intent(this, LoginActivity::class.java)
@@ -21,5 +22,11 @@ class MainActivity : AppCompatActivity() {
             val selectModePage = Intent(this, SelectModeActivity::class.java)
             startActivity(selectModePage)
         }
+        connectBtnClick.setOnClickListener {
+            val connectPage = Intent(this, ConnectActivity::class.java)
+            startActivity(connectPage)
+        }
+
+
     }
 }

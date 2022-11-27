@@ -27,6 +27,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SelectMode page" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
